@@ -1,10 +1,15 @@
 # hscabocha
 
 A Haskell binding to Japanese dependency structure analyzer [CaboCha](http://taku910.github.io/cabocha).  
-The source code is based on that of [tanakh/hsmecab](https://github.com/tanakh/hsmecab).
+The source code is based on [tanakh/hsmecab](https://github.com/tanakh/hsmecab).
 
-Authors
--------
+Installation
+------------
 
-This library is written and maintained by Miyazawa Akira,
-<pecorarista@gmail.com>.
+1. Install [CaboCha](http://taku910.github.io/cabocha).
+
+2. Install this package with following commands.
+```bash
+$ cabal update
+$ cabal install cabocha
+```
